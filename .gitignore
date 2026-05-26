@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# Rust
+target/
+ajs_train/environment/src/cmd
+
+# C
+*.o
+*.so
+*.dylib
+*.a
+*.out
+Make.def
+Make.def.*
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+CLAUDE.md
+
+# Docs
+README-simu
+
+# PyTorch
+*.pt
+*.pth
+!ml_service/ajs.pt
